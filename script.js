@@ -6,7 +6,9 @@ const credentials = {
 let button = document.querySelector(".form__button")
 button.addEventListener("click",checkInput)
 
-function checkInput() {
+function checkInput(event) {
+    event.preventDefault()
+    
     let login = document.getElementById("login")
     let password = document.getElementById("password")
     let message = document.querySelector(".form__message")
