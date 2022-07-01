@@ -15,8 +15,8 @@ function checkInput() {
             message.style.display = "block";
             message.style.color = "#4bb544";
         } else {
-            messageError.innerHTML = "Wrong";
-            messageError.style.display = "block";
+            message.innerHTML = "Wrong";
+            message.style.display = "block";
             message.style.color = "#cc3333";
         }
     }
